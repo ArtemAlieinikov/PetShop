@@ -20,7 +20,8 @@ namespace PetShopApp
             petshop.IntroduceAll();
         }
     }
-
+	
+	//Contain different pets
     class Petshop
     {
         List<Animal> pets = new List<Animal>();
@@ -37,6 +38,7 @@ namespace PetShopApp
         }
     }
 
+	//It includes the basic functionality for the animal
     abstract class Animal
     {
         private string Name;
