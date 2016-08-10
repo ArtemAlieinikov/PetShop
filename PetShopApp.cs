@@ -25,7 +25,7 @@ namespace PetShopApp
         }
     }
 
-    //It conteine different pets
+    //It contains different pets
     class Petshop
     {
         List<Animal> pets = new List<Animal>();
