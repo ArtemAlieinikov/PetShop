@@ -13,8 +13,8 @@ namespace PetShopApp
             Petshop petshop = new Petshop();
 
             petshop.AddPet(new Cat("cat_name_1", "cat_breed_1"));
-            petshop.AddPet(new Cat("cat_name_3", "cat_breed_2"));
-            petshop.AddPet(new Cat("cat_name_4", "cat_breed_3"));
+            petshop.AddPet(new Cat("cat_name_2", "cat_breed_2"));
+            petshop.AddPet(new Cat("cat_name_3", "cat_breed_3"));
             petshop.AddPet(new Dog("dog_name_1", "dog_breed_1"));
             petshop.AddPet(new Dog("dog_name_2", "dog_breed_2"));
             petshop.AddPet(new Dog("dog_name_3", "dog_breed_3"));
